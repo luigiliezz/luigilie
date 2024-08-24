@@ -24,7 +24,15 @@ p{
     font-family: "Nerko One", cursive;
     
 }
+#div_1{margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(55, 107, 90, 0.863);
+    border-style: solid;
+    padding: 2px;
 
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -68,6 +76,37 @@ nav{
     
 }
 
+ol{ font-style: unset;
+    font-size: 20px;
+    font-family: "Nerko One", cursive;
+    color: rgba(55, 107, 90, 0.863);
+}
+
+#Kdrama{
+    font-size: 30px;
+    padding: 1%;
+}
+
+#img_sweet{
+    width: 500px;
+}
+
+#img_itsokay{
+    width: 500px;
+}
+
+#img_theglory{
+    width: 500px;
+}
+
+#Sabrina{
+    width: 500px;
+}
+
+#Arcane{
+    width: 500px;
+}
+
 footer{
     background-color: rgba(88, 197, 161, 0.727) ;
     display: block;
@@ -80,7 +119,7 @@ footer{
     text-align: center;
     margin-top: 30px;
     font-weight: 600;
-    color: rgba(55, 107, 90, 0.863);;
+    color: rgba(55, 107, 90, 0.863);
 }
 
 #info_footer{
