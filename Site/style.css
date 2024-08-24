@@ -11,22 +11,54 @@ body{
 h1{
     font-size: 80px;
     text-align: center;
-    color: rgba(80, 145, 123, 0.801);
-    font-style: 'poppins';
-    border-radius: 25px;
-    background-color: rgb(8, 64, 146);
-    padding: 1%;
+    color: rgba(55, 107, 90, 0.863);
+    font-family: "Matemasie", sans-serif;
+    margin: 7px;
 }
 
 p{
     font-size: 30px;
     text-align: center;
     font-family: serif;
-    color: rgba(58, 121, 100, 0.801);
+    color: rgba(61, 160, 127, 0.801);
+    font-family: "Nerko One", cursive;
     
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poetsen One", sans-serif;
+    margin-top: 10px;
+    align-items: center;
+    color: rgba(40, 138, 105, 0.977);
+    border-radius: 10px;
+    background-color: rgba(88, 197, 161, 0.727);
+    padding: 1%;
 
+}
+
+.logo{
+    font-weight: 800;
+    font-size: 25px;
+
+
+}
+
+.nav-itens{
+    list-style: none;
+    display: flex;
+    font-size: 17px;
+
+}
+
+.nav-itens>li>a{
+    padding-left: 20px;
+    color: rgba(61, 160, 127, 0.801);
+    text-decoration: none;
+
+
+}
 #img_index{
     width: 800px;
     margin: auto;
