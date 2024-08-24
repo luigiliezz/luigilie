@@ -59,10 +59,49 @@ nav{
 
 
 }
+
 #img_index{
-    width: 800px;
+    width: 900px;
     margin: auto;
     display: block;
+    padding: 2%;
     
+}
 
+footer{
+    background-color: rgba(88, 197, 161, 0.727) ;
+    display: block;
+}
+
+#contato{
+    font-size: 60px;
+    font-family: "Nerko One", cursive;
+    padding-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgba(55, 107, 90, 0.863);;
+}
+
+#info_footer{
+    font-size: 20px;
+    color: rgba(55, 107, 90, 0.863);
+    text-align: center;
+    font-family:  "Nerko One", cursive;
+    
+}
+
+#insta{
+    font-family: "Poetsen One", sans-serif;
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgba(40, 138, 105, 0.977);
+    border-radius: 25px;
+    border-radius: 15%;
+    background-color:  rgb(204, 240, 228);
+    font-size: 20px;
+    margin: auto;
 }
