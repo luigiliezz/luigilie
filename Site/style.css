@@ -20,9 +20,34 @@ p{
     font-size: 30px;
     text-align: center;
     font-family: serif;
-    color: rgba(61, 160, 127, 0.801);
+    color: rgba(37, 120, 92, 0.801);
     font-family: "Nerko One", cursive;
     
+}
+
+.container{
+    padding: 10px 20px;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(101, 209, 173, 0.863);
+    text-align: center;
+    align-items: center;
+}
+
+.item{
+    width: 900px;
+    height: 200x;
+    background-color: rgb(88, 197, 161);
+    
+}
+
+.Titulo-flex{ 
+    font-family: "Nerko One", cursive;
+    font-size: 30px;
+
 }
 
 nav{
@@ -70,27 +95,31 @@ table{
     border: 1px solid rgba(55, 107, 90, 0.863);
     width: 500px;
     border-collapse: collapse;
-    display: flex;
+    padding: 2%;
+    
+
     
 }
 
 tr{
     background-color: rgba(88, 197, 161, 0.727);
+    
 }
 
 th{
     border: 1px solid  rgba(55, 107, 90, 0.863);
     font-family: "Nerko One", cursive;
+    
 }
 
 td{
     border: 1px solid  rgba(55, 107, 90, 0.863);
     padding: 8px;
     font-family:  "Poetsen One", sans-serif;
+  
 
 
 }
-
 
 #img_index{
     width: 900px;
@@ -147,9 +176,12 @@ td{
     width: 500px;
 }
 
-#Castelo_Animado{
-    width: 500px;
+.imagem-flex{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 468px;
 }
+
 
 footer{
     background-color: rgba(88, 197, 161, 0.727) ;
