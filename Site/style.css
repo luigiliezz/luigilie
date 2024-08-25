@@ -24,15 +24,7 @@ p{
     font-family: "Nerko One", cursive;
     
 }
-#div_1{margin-right: 40px;
-    margin-left: 40px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border-color: rgba(55, 107, 90, 0.863);
-    border-style: solid;
-    padding: 2px;
 
-}
 nav{
     display: flex;
     justify-content: space-around;
@@ -68,6 +60,38 @@ nav{
 
 }
 
+ol{ font-style: unset;
+    font-size: 20px;
+    font-family: "Nerko One", cursive;
+    color: rgba(55, 107, 90, 0.863);
+}
+
+table{
+    border: 1px solid rgba(55, 107, 90, 0.863);
+    width: 500px;
+    border-collapse: collapse;
+    display: flex;
+    
+}
+
+tr{
+    background-color: rgba(88, 197, 161, 0.727);
+}
+
+th{
+    border: 1px solid  rgba(55, 107, 90, 0.863);
+    font-family: "Nerko One", cursive;
+}
+
+td{
+    border: 1px solid  rgba(55, 107, 90, 0.863);
+    padding: 8px;
+    font-family:  "Poetsen One", sans-serif;
+
+
+}
+
+
 #img_index{
     width: 900px;
     margin: auto;
@@ -76,10 +100,14 @@ nav{
     
 }
 
-ol{ font-style: unset;
-    font-size: 20px;
-    font-family: "Nerko One", cursive;
-    color: rgba(55, 107, 90, 0.863);
+#div_1{margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: rgba(55, 107, 90, 0.863);
+    border-style: solid;
+    padding: 2px;
+
 }
 
 #Kdrama{
@@ -104,6 +132,22 @@ ol{ font-style: unset;
 }
 
 #Arcane{
+    width: 500px;
+}
+
+#Anne{
+    width: 500px;
+}
+
+#Ponyo{
+    width: 500px;
+}
+
+#Serviço_Kiki{
+    width: 500px;
+}
+
+#Castelo_Animado{
     width: 500px;
 }
 
