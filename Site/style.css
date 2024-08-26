@@ -61,6 +61,7 @@ nav{
     background-color: rgba(88, 197, 161, 0.727);
     padding: 1%;
     width: 100%;
+    max-width: 1550px;
     
 
 }
@@ -132,7 +133,10 @@ td{
     
 }
 
-#div_1{margin-right: 40px;
+#div_1{
+    width: 100%;
+    max-width: 1450px;
+    margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -187,6 +191,8 @@ td{
 
 
 footer{
+    width: 100%;
+    max-width: 1550px;
     background-color: rgba(88, 197, 161, 0.727) ;
     display: block;
 }
