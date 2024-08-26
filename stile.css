@@ -33,6 +33,8 @@ nav{
     border-radius: 10px;
     background-color:rgb(140, 215, 230);
     padding: 1%;
+    width: 100%;
+    max-width: 1550px;
 
 }
 
@@ -52,6 +54,8 @@ nav{
 }
 
 footer{
+    width: 100%;
+    max-width: 1550px;
     background-color:rgb(140, 215, 230);
     display: block;
 }
