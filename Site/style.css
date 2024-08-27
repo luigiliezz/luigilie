@@ -6,7 +6,6 @@
 
 body{
     background-color: rgb(204, 240, 228);
-
     width: 100%;
     
 }
@@ -38,12 +37,15 @@ p{
     background-color: rgba(101, 209, 173, 0.863);
     text-align: center;
     align-items: center;
+    flex-wrap: wrap;
+    
 }
 
 .item{
     width: 900px;
     height: 200x;
     background-color: rgb(88, 197, 161);
+   
     
 }
 
@@ -104,9 +106,8 @@ table{
     border-collapse: collapse;
     padding: 2%;
     margin: auto;
-    
+    margin-top: 1%;
 
-    
 }
 
 tr{
