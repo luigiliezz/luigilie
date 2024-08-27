@@ -6,9 +6,9 @@
 
 body{
     background-color: rgb(204, 240, 228);
+
     width: 100%;
-    position: fixed;
-   
+    
 }
 
 h1{
@@ -57,16 +57,15 @@ nav{
     display: flex;
     justify-content: space-around;
     font-family: "Poetsen One", sans-serif;
-    margin-top: 10px;
     align-items: center;
     color: rgba(40, 138, 105, 0.977);
     border-radius: 10px;
     background-color: rgba(88, 197, 161, 0.727);
-    padding: 1%;
     width: 100%;
-    
-    
-    
+    padding: 1%;
+    margin-top: 10px;
+   
+
 }
 
 .logo{
@@ -133,6 +132,7 @@ td{
 
 #img_index{
     width: 900px;
+    height: auto;
     margin: auto;
     display: block;
     padding: 2%;

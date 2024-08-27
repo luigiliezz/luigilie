@@ -4,11 +4,10 @@
     box-sizing: border-box;
 }
 
-
 body{
     background-color: rgb(179, 213, 220);
     width: 100%;
-    position: fixed;
+  
 }
 
 h1{
@@ -38,7 +37,7 @@ nav{
     background-color:rgb(140, 215, 230);
     padding: 1%;
     width: 100%;
-    max-width: 1550px;
+    
 
 }
 
