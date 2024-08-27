@@ -7,6 +7,8 @@
 
 body{
     background-color: rgb(179, 213, 220);
+    width: 100%;
+    position: fixed;
 }
 
 h1{
@@ -94,17 +96,3 @@ footer{
     font-size: 20px;
     margin: auto;
 }
-
-@media screen and (max-width: 800px){
-    .classe-nav{
-        min-width: 100%;
-        
-    }
-
-    .footer{
-        width: 100%;
-        flex-direction: column;
-    }
-
-}
-    
