@@ -28,16 +28,12 @@ p{
 }
 
 .container{
-    padding: 10px 20px;
-    flex: 1 1 300px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    background-color: rgba(101, 209, 173, 0.863);
-    text-align: center;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
+  
+  
     
 }
 
@@ -45,6 +41,8 @@ p{
     width: 900px;
     height: 200x;
     background-color: rgb(88, 197, 161);
+    flex: 1 1 300px;
+    
    
     
 }
@@ -58,6 +56,7 @@ p{
 nav{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-family: "Poetsen One", sans-serif;
     align-items: center;
     color: rgba(40, 138, 105, 0.977);
@@ -137,6 +136,7 @@ td{
     margin: auto;
     display: block;
     padding: 2%;
+    flex-wrap: wrap;
     
 }
 
@@ -161,40 +161,41 @@ td{
 
 #img_sweet{
     width: 500px;
+    padding: 1%;
 }
 
 #img_itsokay{
     width: 500px;
+    padding: 1%;
 }
 
 #img_theglory{
     width: 500px;
+    padding: 1%;
 }
 
 #Sabrina{
     width: 500px;
+    padding: 1%;
 }
 
 #Arcane{
     width: 500px;
+    padding: 1%;
 }
 
 #Anne{
     width: 500px;
+    padding: 1%;
 }
 
-#Ponyo{
-    width: 500px;
-}
-
-#Serviço_Kiki{
-    width: 500px;
-}
 
 .imagem-flex{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 468px;
+    margin: auto;
+
 }
 
 
@@ -202,7 +203,7 @@ footer{
     width: 100%;
     max-width: 1550px;
     background-color: rgba(88, 197, 161, 0.727) ;
-    display: block;
+
 }
 
 #contato{
@@ -239,3 +240,21 @@ footer{
 }
 
 
+@media (max-width: 922px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    #img_index{
+        width: 400px;
+    }
+}
+
+@media  (max-width: 420px){
+
+    #img_index{
+        width: 300px;
+    }
+
+}
+    

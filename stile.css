@@ -95,3 +95,34 @@ footer{
     font-size: 20px;
     margin: auto;
 }
+
+
+@media (max-width: 918px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    img{
+        width: 600px;
+        height: 500px;
+    }
+}
+
+@media  (max-width: 622px){
+
+    img{
+        width: 400px;
+        height: 400px;
+    }
+
+}
+
+@media  (max-width: 423px){
+
+    img{
+        width: 300px;
+        height: 200px;
+    }
+
+}
+    
