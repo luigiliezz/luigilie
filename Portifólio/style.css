@@ -1,0 +1,188 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d3ebf7;}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "Poetsen One", sans-serif;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #73b9dc;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 0 8px 10px  rgb(52, 93, 155);
+ }
+
+ a:hover{
+
+    color: rgb(19, 1, 19);
+    box-shadow: 0 8px 10px  rgb(52, 93, 155);
+ }
+
+
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+
+}
+
+nav ul li{
+    margin: 10px;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+main{
+    padding: 20px;
+    
+
+}
+#sobre {
+    min-height: calc(100vh - 110px);
+}
+
+section{
+    margin-bottom: 40px;
+    
+}
+
+.projetos-container{
+    display:flex;
+    flex-wrap: wrap ;
+    text-align: center;
+    font-family: "Nerko One", cursive;
+    color: rgb(95, 116, 147);
+
+}
+
+.card-projeto{
+    background-color: #73b9dc;
+    border: 5px solid #60899d;;
+    border-radius: 5px;
+    padding: 60px;
+    margin: 60px;
+    width: calc(33% - 20px);
+    text-align: center;
+    margin: auto;
+
+}
+
+
+
+.card-projeto:hover{
+    box-shadow: 0px 0px 10px
+    rgba(0,0,0,0,5);
+
+
+}
+
+footer{
+    background-color: #73b9dc;
+    color: rgb(255, 253, 253);
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+.redes-sociais{
+    list-style-type: none;
+    padding-left: 0 ;
+}
+
+a{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    font-family:  "Poetsen One", sans-serif;
+}
+
+#mim{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+    color: rgb(70, 96, 134);
+
+
+    
+}
+
+#meus{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Matemasie", sans-serif;
+   
+}
+
+#um{
+    font-size: 25px;
+}
+
+#cont{
+    text-align:center;
+    font-family: "Matemasie", sans-serif;
+    color: rgb(70, 96, 134);
+}
+
+
+#img{
+    width: 350px;
+    margin: auto;
+    display: block;   
+  
+}
+
+#maria{
+    width: 250px;
+    margin: auto;
+    display: block;   
+  
+}
+
+#inicial{
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+#livro{
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+}
+
+#portifolio{
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Matemasie", sans-serif;
+    color: rgb(70, 96, 134);
+
+}
+
+#apresentação{
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    color: rgb(159, 185, 223);
+}
+
+#data{
+    font-family:  "Poetsen One", sans-serif;
+}
+
+#about{
+    font-family: "Nerko One", cursive;
+    font-size: 20px;
+    color: rgb(159, 185, 223);
+}

@@ -42,7 +42,7 @@ p{
     height: 200x;
     background-color: rgb(88, 197, 161);
     flex: 1 1 300px;
-    
+    padding: 3%;
    
     
 }
@@ -159,35 +159,11 @@ td{
     padding: 1%;
 }
 
-#img_sweet{
+#img_listas{
     width: 500px;
     padding: 1%;
 }
 
-#img_itsokay{
-    width: 500px;
-    padding: 1%;
-}
-
-#img_theglory{
-    width: 500px;
-    padding: 1%;
-}
-
-#Sabrina{
-    width: 500px;
-    padding: 1%;
-}
-
-#Arcane{
-    width: 500px;
-    padding: 1%;
-}
-
-#Anne{
-    width: 500px;
-    padding: 1%;
-}
 
 
 .imagem-flex{
@@ -195,9 +171,13 @@ td{
     flex-shrink: 1;
     flex-basis: 468px;
     margin: auto;
+    padding: 1%;
 
 }
 
+section{
+    width: 100%;
+}
 
 footer{
     width: 100%;
