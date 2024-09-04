@@ -44,11 +44,6 @@ nav a{
     
 }
 
-main{
-    padding: 20px;
-    
-
-}
 #sobre {
     min-height: calc(100vh - 110px);
 }
@@ -90,11 +85,45 @@ section{
 
 footer{
     background-color: #73b9dc;
-    color: rgb(255, 253, 253);
-    text-align: center;
-    padding: 10px 0;
+    width: 100%;
+    display: grid;
+
 
 }
+
+#contato{
+    font-size: 60px;
+    font-family: "Nerko One", cursive;
+    padding-left: 50px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgb(95, 116, 147);
+}
+
+#info_footer{
+    font-size: 20px;
+    color: rgb(95, 116, 147);
+    text-align: center;
+    font-family:  "Nerko One", cursive;
+    
+}
+
+#insta{
+    font-family: "Poetsen One", sans-serif;
+    text-decoration: none;
+    display: block;
+    border: solid;
+    width: max-content;
+    padding: 2px;
+    color: rgb(95, 116, 147);
+    border-radius: 25px;
+    border-radius: 15%;
+   background-color: rgb(214, 227, 246) ;
+    font-size: 20px;
+    margin: auto;
+}
+
 
 .redes-sociais{
     list-style-type: none;
@@ -175,10 +204,6 @@ a{
     font-family: "Nerko One", cursive;
     font-size: 20px;
     color: rgb(159, 185, 223);
-}
-
-#data{
-    font-family:  "Poetsen One", sans-serif;
 }
 
 #about{

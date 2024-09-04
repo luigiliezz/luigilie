@@ -108,6 +108,8 @@ table{
     padding: 2%;
     margin: auto;
     margin-top: 1%;
+    
+
 
 }
 
@@ -197,7 +199,7 @@ section{
 footer{
     width: 100%;
     max-width: 1550px;
-    background-color: rgba(88, 197, 161, 0.727) ;
+    background-color: rgba(88, 197, 161, 0.727);
 
 }
 

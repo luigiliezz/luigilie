@@ -60,7 +60,7 @@ footer{
     width: 100%;
     max-width: 1550px;
     background-color:rgb(140, 215, 230);
-    display: block;
+    display: grid;
 }
 
 #contato{
