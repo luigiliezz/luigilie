@@ -34,6 +34,7 @@ nav ul{
 
 nav ul li{
     margin: 10px;
+
     
 }
 
@@ -172,7 +173,7 @@ a{
   
 }
 
-#maria{
+#luiz{
     width: 250px;
     margin: auto;
     display: block;   
@@ -210,4 +211,11 @@ a{
     font-family: "Nerko One", cursive;
     font-size: 20px;
     color: rgb(159, 185, 223);
+    text-align: center;
+}
+
+#Ada_Wong li{
+    width: fit-content;
+    text-align: center;
+    
 }
