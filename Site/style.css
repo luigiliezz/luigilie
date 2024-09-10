@@ -191,7 +191,7 @@ td{
 
 
 
-.imagem-flex{
+#imagem-flex{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 468px;
@@ -300,6 +300,10 @@ footer{
         font-size: 15px;
     }
 
+    #imagem-flex{
+        width: 300px;
+    }
+
     
 }
 
@@ -325,6 +329,9 @@ footer{
         padding: 1%;
     }
 
+    #imagem-flex{
+        width: 300px;
+    }
     
 
     
