@@ -27,6 +27,14 @@ p{
     
 }
 
+#p_listas{
+    font-size: 30px;
+    text-align: center;
+    font-family: serif;
+    color: rgba(37, 120, 92, 0.801);
+    font-family: "Nerko One", cursive;
+}
+
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -286,6 +294,10 @@ footer{
     th{
         font-size: 10px;
 
+    }
+
+    #p_listas{
+        font-size: 15px;
     }
 
     
