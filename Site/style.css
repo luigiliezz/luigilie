@@ -257,6 +257,12 @@ footer{
     }
 }
 
+@media (max-width: 655px){
+    #imagem-flex{
+        width: 200px;
+    }
+}
+
 @media  (max-width: 420px){
 
     #img_index{
