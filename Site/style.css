@@ -207,7 +207,7 @@ section{
 
 footer{
     width: 100%;
-    max-width: 1550px;
+   display: block;
     background-color: rgba(88, 197, 161, 0.727);
 
 }
