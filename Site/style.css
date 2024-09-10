@@ -195,8 +195,9 @@ td{
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 468px;
-    margin: auto;
     padding: 1%;
+    width: 600px;
+    margin: auto;
 
 }
 
