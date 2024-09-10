@@ -303,6 +303,10 @@ footer{
 
     }
 
+    td{
+        font-size: 10px;
+    }
+
     #p_listas{
         font-size: 15px;
     }
