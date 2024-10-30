@@ -13,7 +13,20 @@ txt.onclick = () => {
 
 
 
-
 const clicked = () => {
     console.log(' Botão clicado! ')
 }
+
+
+txt.addEventListener('keypress', () => {
+    alert(' Tecla pressionada!')
+
+})
+
+divImg.addEventListener('mouseover', () => {
+    divImg.style.opacity = '0.5';
+})
+
+divImg.addEventListener('mouseout', () => {
+    divImg.style.opacity = '1';
+})
