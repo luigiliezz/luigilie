@@ -1,10 +1,14 @@
-let miniatura = document.querySelector("#miniatura");
-let imgAmpliada = document.querySelector('#imgAmpliada')
+const miniatura = document.querySelectorAll(".miniatura");
+const imgAmpliada = document.querySelector('#imgAmpliada')
 
-
-function mudarImagem() {
-    imgAmpliada.setAttribute('src')
-
-}
-
-miniatura.addEventListener("click", mudarImagem)
+miniaturas.forEach(miniatura => {
+    miniatura.addEventListener('click', () =>{
+        miniaturas.forEach(miniatura => {
+            miniatura.style.opacity = '0.4';
+        })
+        miniatura.style.opacity = '1';
+        imgAmpliada.src = miniatura.src;
+        imgAmpliada.style.display = 'block';
+    })
+    
+});
